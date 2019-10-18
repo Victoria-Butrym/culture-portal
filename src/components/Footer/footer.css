@@ -1,0 +1,31 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.title__wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo__footer {
+    margin: 0;
+}
+.footer__title {
+    color: var(--color-white);
+    margin-left: 20px;
+}
+.footer__img {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+}
+.social__link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+

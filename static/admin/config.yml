@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: vladislavkhlebec/culture-portal-getsby-starter
+media_folder: src/images
+public_folder: assets
+collections:
+  - name: blog
+    label: Blog
+    folder: src/pages/markdown/directors
+    create: true
+    fields:
+      - { name: lang, label: lang }
+      - { name: path, label: Path }
+      - { name: imagepath, label: Image Path}
+      - { name: type, label: Type }
+      - { name: title, label: Title }
+      - { name: city, label: City }
+      - { name: titleText, label: Title Text}
+      - { name: directorsLifeYears, label: Director's Years of Life, widget: string }
+      - { name: directorsInfo, label: Director's Info, widget: string }
+      - label: Timeline
+        name: timeline
+        widget: list
+        fields:
+           - {label: Date, name: date, widget: string}
+           - {label: Description, name: description, widget: string}
+      - label: List Of Works
+        name: listOfWorks
+        widget: list
+        fields:
+           - {label: ID, name: id, widget: string}
+           - {label: Year, name: year, widget: string}
+           - {label: Film, name: film, widget: string}
+      - {label: Gallery, name: gallery, widget: string}
+      - {label: Youtube, name: youtube, widget: string}
+      - label: Geolocation
+        name: geolocation
+        widget: list
+        fields:
+           - {label: ID, name: id, widget: string}
+           - {label: Latitude, name: latitude, widget: number}
+           - {label: Longitude, name: longitude, widget: number}
+           - {label: Description, name: description, widget: string}

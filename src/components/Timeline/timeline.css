@@ -1,0 +1,32 @@
+.timeline--wrapper {
+  width: 900px;
+}
+.entry .body {
+  margin-bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .timeline--wrapper {
+    width: 100%;
+  }
+  .body-container{
+
+  }
+
+}
+@media (max-width: 800px) {
+  .directors__container {
+
+  }
+  .timeline_listOfWorks {
+    width: 100%
+  }
+  .timeline--wrapper {
+    width: 100%;
+  }
+  .entry{
+    width: 70%;
+    margin-left: 30%;
+    margin: 0px;
+  }
+
+}

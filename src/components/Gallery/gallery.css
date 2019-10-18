@@ -1,0 +1,21 @@
+.gallery__container {
+    margin-top: 100px;
+}
+
+.carousel .slide {
+    align-self: center;
+    background: none;
+}
+
+.carousel .slide img {
+    width: inherit;
+    min-width: 500px
+}
+
+.carousel .thumb, .carousel img {
+    width: inherit;
+}
+
+.carousel .thumb img {
+    height: 100px;
+}

@@ -1,0 +1,21 @@
+.marker-btn {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background: #BCD3DC;
+    position: relative;
+    }
+.marker-btn:after {
+    content: "";
+    width: 18px; 
+    height: 18px;
+    position: absolute; 
+    left: calc(50% - 9px); 
+    top: calc(50% - 9px);
+    background: rgb(0, 129, 65);
+    border-radius: 0 50% 50% 50%;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.3);
+    }
+    .marker-btn:hover {
+        background: white
+    }

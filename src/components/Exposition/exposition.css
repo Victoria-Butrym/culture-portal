@@ -1,0 +1,81 @@
+.section--exposition {
+  background: url('../../images/68238.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.exposition__container {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  flex-direction: column;
+}
+.exposition__title {
+margin-top: 50px;
+font-size: 6rem;
+text-align: center;
+color: var(--color-dark-red);
+}
+.button {
+  font-size: 2rem;
+}
+.exposition__container button{
+  margin-bottom: 20px;
+}
+
+.exposition__container div p {
+margin-top: 7vh;
+margin-bottom: 1vh;
+width: 100%;
+font-style: italic;
+font-weight: bold;
+}
+
+@media (max-width: 1440px) {
+.exposition__title {
+  font-size: 4rem;
+}
+.exposition__container {
+  margin-left: 0px;
+}
+.exposition__container div p {
+  margin-top: 5vh;
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  }
+}
+
+@media (max-width: 800px) {
+.exposition__title {
+  font-size: 2rem;
+  margin-top: 20px;
+  width: 60%;
+}
+.exposition__container {
+  margin-left: 0px;
+}
+.exposition__container div p {
+  margin-top: 0;
+  padding: 2vh 10vw;
+  text-align: center;
+}
+}
+
+@media (max-width: 480px) {
+.exposition__title {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.exposition__container {
+  margin-left: 0px;
+  min-width: 300px;
+}
+.exposition__container div p {
+  font-size: 0.7rem;
+  text-align: center;
+}
+}

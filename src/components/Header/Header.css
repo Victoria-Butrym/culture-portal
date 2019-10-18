@@ -1,0 +1,35 @@
+.header {
+    background-color: var(--color-primary);
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 30px;
+}
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.link {
+    text-decoration: none;
+    color: var(--color-white);
+}
+.navigation__link {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.title {
+    margin: 0;
+    font-size: 1.4rem;
+}
+.navigation {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+body {
+    overflow-x: hidden;
+}

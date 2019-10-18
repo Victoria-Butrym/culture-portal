@@ -1,0 +1,47 @@
+.list_of_works_section {
+  display: block;
+  width: 400px;
+  background-image: url(../../images/slajd08.png);
+  background-size: 100%;
+  box-shadow: 0 0 10px 10px rgb(104, 104, 104);
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #ECE9E0;
+  color: #656665;
+  border-radius: 20px;
+  }
+  td {
+  padding: 15px 5px;
+  font-weight: bold;
+  color: rgb(92, 22, 22);
+  font-size: 1.1rem;
+  }
+  caption {
+    font-family: fantasy ;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+  }
+td.date {
+  padding-left: 65px;
+}
+td.film {
+  width: 200px;
+}
+caption div {
+  background: rgb(39, 39, 39);
+  box-shadow: 0 0 5px 5px rgb(184, 184, 184);
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 1.4rem
+
+}
+
+

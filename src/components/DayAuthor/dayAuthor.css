@@ -1,0 +1,74 @@
+.section__dayauthor {
+  background-color: var(--color-4);
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+.container__dayauthor {
+  padding: 70px 30px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dayauthor__title {
+  font-size: 2.5rem;
+}
+
+.photoAuthor__wrapper {
+  width: 40%;
+}
+.wrapper__column {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__column--authorday {
+  justify-content: center;
+  width: 50%;
+}
+.dayauthor__name {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.dayauthor__description {
+  margin-top: 20px;
+  text-align: justify;
+}
+.button__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.photoAuthor__image {
+  width: 80%;
+  margin: 0;
+}
+.photoAuthor__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.wrapper__dayauthor {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  padding: 20px;
+}
+@media (min-width: 769px) {
+  .wrapper__dayauthor {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper__dayauthor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper__column--authorday {
+  width: 100%;
+  text-align: center;
+  }
+
+  .photoAuthor__wrapper {
+    width: 100%;
+  }
+}

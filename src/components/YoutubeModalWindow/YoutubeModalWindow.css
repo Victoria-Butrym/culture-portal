@@ -1,0 +1,9 @@
+.button {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  background-image: url(../../images/youtube-512.png);
+  background-size: 100%;
+  width: 96px;
+  height: 54px;
+}

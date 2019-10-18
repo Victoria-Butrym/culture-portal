@@ -1,0 +1,31 @@
+.cardName {
+  text-align: center;
+  background: black;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+@media (min-width: 1025px) {
+  .MuiContainer-maxWidthMd {
+      max-width: 1800px;
+  }
+  #card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 20%;
+  }
+  .cardName {
+    width: 100%,
+  }
+}
+
+@media (min-width: 600px) {
+  .cardName {
+    width: 7em,
+  }
+}
