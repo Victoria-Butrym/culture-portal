@@ -1,7 +1,7 @@
 # Culture-portal  
 ![culture-portal](https://user-images.githubusercontent.com/47819058/65388534-70722c00-dd55-11e9-8bae-c47a02b67b66.png)  
 
-Teamwork. My nick is __vladji__  
+## Hackathon  
 In this project have been used: `GatsbyJS`, `GraphQL`, `Netlify CMS`, `Material-UI`  
 [Task overview](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md)  
 [demo-link](https://belarusian-cinema-jungle.firebaseapp.com/)  
